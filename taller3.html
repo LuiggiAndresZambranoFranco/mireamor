@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 3</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <form class="Formulario" action="">
+        <div class="contenedor">
+            <h1>Ejercicios del taller 3:</h1>
+
+            <div class="input-contenedor">
+                <label for="" class="Clabel">Transformar la hora actual en segundos:</label>
+                <button type="button" onclick="horaSegundo()">Transformar</button>
+
+            </div>
+            <div class="input-contenedor">
+                <label for="" class="Clabel">Calcular el area de un triangulo:</label> <br>
+                <input type="text" id="base" placeholder="base">
+                <input type="text" id="altura" placeholder="altura"><br>
+                <button type="button" onclick="area()">Calcular</button>
+
+            </div>
+            <div class="input-contenedor">
+
+                <label for="" class="Clabel">Calcule la raíz de un número impar y muestre el resultado con 3
+                    dígitos:</label><br>
+                <input type="text" id="impar" placeholder="Numero impar">
+                <button type="button" onclick="RaizImpar()">Calcule</button>
+
+            </div>
+            <div class="input-contenedor"> <label for="" class="Clabel">Ingresar una cadena de texto y mostrar la
+                    longitud de la cadena:</label><br>
+                <input type="text" id="cadena" placeholder="texto">
+                <button type="button" onclick="Cadena()">Ingresar</button>
+            </div>
+            <div class="input-contenedor">
+                <label for="" class="Clabel">Concatenar los arrays: array 1(Lunes a Viernes) y array2(Sabado.
+                    Domingo):</label>
+                <button type="button" onclick="Semana()">Concatenar</button>
+            </div>
+            <div class="input-contenedor">
+                <label for="" class="Clabel">Mostrar la versión del navegador:</label>
+                <button type="button" onclick="Version()">Mostrar</button>
+
+            </div>
+            <div class="input-contenedor">
+                <label for="" class="Clabel">Mostrar el ancho y altura de la pantalla:</label>
+                <button type="button" onclick="Ancho()">Mostrar</button>
+            </div>
+            <div class="input-contenedor">
+                <button type="button" onclick="Imprimir()">imprimir la página</button>
+            </div>
+        </div>
+
+    </form>
+    <p id="trabajo"></p>
+    <script src="index.js"></script>
+</body>
+
+</html>
