@@ -39,6 +39,25 @@ input
     margin-top: 40px;
      }
 
+input#impar{
+    position: relative;
+    left: 200px;
+    }
+input#base{
+    position: relative;
+    left: 100px;
+    }
+input#altura{
+    position: relative;
+    left: 150px;
+    }
+  
+input#cadena{
+    position: relative;
+    left: 200px;
+    }  
+ 
+
 button{
     border: none;
     width: 100%;
